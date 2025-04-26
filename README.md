@@ -46,5 +46,6 @@ Currently, this is a solo project.
 All code, content, and design are created by me unless explicitly stated otherwise.
 Future contributions and community involvement are welcome once the template is more established.
 Special thanks to future collaborators and users!
-
+<br>
+<br>
 > "Every universe deserves to be explored — this template is your starting point."
