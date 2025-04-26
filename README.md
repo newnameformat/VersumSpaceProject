@@ -1,4 +1,4 @@
-# Wolvieverse (Project Name Placeholder)
+# Wolvieverse (Project Name Placeholder) 
 A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
 ---
 
@@ -21,29 +21,22 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 - Ready-to-deploy to Vercel or any other static host
 
 ## 📦 Getting Started
-Clone the repository:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+   ```
+2. Navigate to the directory:
+   ```bash
+   cd project-name
+   ```
+3. Open index.html in your browser to view it locally.
+4. Customize and deploy to Vercel (or your preferred host).
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/project-name.git
-Navigate into the directory:
-
-bash
-Copy
-Edit
-cd project-name
-Open index.html in your browser to view it locally.
-
-Customize and deploy to Vercel (or your preferred host).
-
-🧑‍💻 Contributions
+## 🧑‍💻 Contributions
 Currently, this is a solo project.
 All code, content, and design are created by me unless explicitly stated otherwise.
 Future contributions and community involvement are welcome once the template is more established.
-
-🎨 Credits
-Art assets generated via Niji Journey.
 Special thanks to future collaborators and users!
 
 "Every universe deserves to be explored — this template is your starting point."
