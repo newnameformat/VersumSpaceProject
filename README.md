@@ -16,11 +16,13 @@ Built with HTML, CSS, and JavaScript, and designed for easy hosting on Vercel, i
 
 The long-term goal is to make this a template that anyone can adapt for their own worlds — whether you're writing novels, building a game universe, or crafting detailed lore.
 
+<br>
 ## 🛠 Tech Stack
 - Frontend: HTML, CSS, JavaScript
 - Art: Generated with [Niji Journey](https://nijijourney.com/home)
 - Hosting: [Vercel](https://vercel.com)
 
+<br>
 ## ✨ Features
 - Flexible and customizable site structure
 - Organized pages for worlds, characters, events, and timelines
@@ -28,6 +30,7 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 - Lightweight, fast, and easy to expand
 - Ready-to-deploy to Vercel or any other static host
 
+<br>
 ## 📦 Getting Started
 1. Clone the repository:
    ```bash
@@ -41,6 +44,7 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 3. Open index.html in your browser to view it locally.
 4. Customize and deploy to Vercel (or your preferred host).
 
+<br>
 ## 🧑‍💻 Contributions
 Currently, this is a solo project.
 All code, content, and design are created by me unless explicitly stated otherwise.
@@ -48,4 +52,4 @@ Future contributions and community involvement are welcome once the template is 
 Special thanks to future collaborators and users!
 <br>
 <br>
-> "Every universe deserves to be explored — this template is your starting point."
+> <sub>"Every universe deserves to be explored — this template is your starting point."</sub>
