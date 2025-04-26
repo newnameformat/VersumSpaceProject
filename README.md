@@ -1,4 +1,4 @@
-# Wolvieverse (Project Name Placeholder) 
+# VersumSpace 
 
 ![Status](https://img.shields.io/badge/Status-in%20development-yellow)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-blue)
@@ -11,7 +11,7 @@ A modular lore and worldbuilding wiki template for creators, writers, and worldb
 <br>
 
 ## 🌌 About the Project
-Aetherium (working title) is a solo-built project designed to organize and showcase original worlds, characters, plots, and timelines.
+VersumSpace is a solo-built project designed to organize and showcase original worlds, characters, plots, and timelines.
 Built with HTML, CSS, and JavaScript, and designed for easy hosting on Vercel, it offers a flexible foundation for anyone wanting to present their creative universe online.
 
 The long-term goal is to make this a template that anyone can adapt for their own worlds — whether you're writing novels, building a game universe, or crafting detailed lore.
