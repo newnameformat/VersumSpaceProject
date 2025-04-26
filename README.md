@@ -1,21 +1,49 @@
-# 🌍 wolvieverse
-
-A long-term worldbuilding and fictional encyclopedia project. This site features a growing universe of original characters, places, and timelines — alongside some inspired entries from popular canon universes.
-
+# Wolvieverse (Project Name Placeholder)
+A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
 ---
 
-## 🛠️ Technology Used
+## 🌌 About the Project
+Aetherium (working title) is a solo-built project designed to organize and showcase original worlds, characters, plots, and timelines.
+Built with HTML, CSS, and JavaScript, and designed for easy hosting on Vercel, it offers a flexible foundation for anyone wanting to present their creative universe online.
 
-- HTML/CSS (starting with `index.html`)
-- JavaScript (planned)
-- [Niji Journey AI image generator](https://nijijourney.com/home) for character / world art
-- [Vercel](https://vercel.com/) for live hosting
+The long-term goal is to make this a template that anyone can adapt for their own worlds — whether you're writing novels, building a game universe, or crafting detailed lore.
 
+## 🛠 Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Art: Generated with [Niji Journey](https://nijijourney.com/home)
+- Hosting: [Vercel](https://vercel.com)
 
-## 🚧 Current Status
+## ✨ Features
+- Flexible and customizable site structure
+- Organized pages for worlds, characters, events, and timelines
+- Integrated support for art and media
+- Lightweight, fast, and easy to expand
+- Ready-to-deploy to Vercel or any other static host
 
-- ✅ Initial `index.html` created
-- 🔜 Designing layout and basic navigation
-- 🔜 Adding content pages for characters, worlds, and timelines
+## 📦 Getting Started
+Clone the repository:
 
----
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/project-name.git
+Navigate into the directory:
+
+bash
+Copy
+Edit
+cd project-name
+Open index.html in your browser to view it locally.
+
+Customize and deploy to Vercel (or your preferred host).
+
+🧑‍💻 Contributions
+Currently, this is a solo project.
+All code, content, and design are created by me unless explicitly stated otherwise.
+Future contributions and community involvement are welcome once the template is more established.
+
+🎨 Credits
+Art assets generated via Niji Journey.
+Special thanks to future collaborators and users!
+
+"Every universe deserves to be explored — this template is your starting point."
