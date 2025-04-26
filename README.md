@@ -47,4 +47,4 @@ All code, content, and design are created by me unless explicitly stated otherwi
 Future contributions and community involvement are welcome once the template is more established.
 Special thanks to future collaborators and users!
 
-"Every universe deserves to be explored — this template is your starting point."
+> "Every universe deserves to be explored — this template is your starting point."
