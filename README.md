@@ -1,6 +1,6 @@
 # Wolvieverse (Project Name Placeholder) 
 ### A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
----
+
 
 ## 🌌 About the Project
 Aetherium (working title) is a solo-built project designed to organize and showcase original worlds, characters, plots, and timelines.
