@@ -1,6 +1,11 @@
 # Wolvieverse (Project Name Placeholder) 
 ### A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
 
+![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![Frontend](https://img.shields.io/badge/frontend-HTML%2FCSS%2FJS-orange)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://vercel.com/) 
+[![Visuals](https://img.shields.io/badge/Visuals-Niji%20Journey-purple)](https://nijijourney.com/home)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 🌌 About the Project
 Aetherium (working title) is a solo-built project designed to organize and showcase original worlds, characters, plots, and timelines.
