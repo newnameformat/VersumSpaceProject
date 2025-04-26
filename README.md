@@ -7,7 +7,8 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
-
+<br>
+<br>
 
 ## 🌌 About the Project
 Aetherium (working title) is a solo-built project designed to organize and showcase original worlds, characters, plots, and timelines.
