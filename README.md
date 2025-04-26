@@ -1,5 +1,5 @@
 # Wolvieverse (Project Name Placeholder) 
-A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
+### A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
 ---
 
 ## 🌌 About the Project
