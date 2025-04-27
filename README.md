@@ -5,8 +5,11 @@
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://vercel.com/) 
 [![Visuals](https://img.shields.io/badge/Visuals-Niji%20Journey-purple)](https://nijijourney.com/home)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<br>
+<br>
+![projectbanner](https://github.com/user-attachments/assets/5f991fa2-81fc-4295-bce6-d717e074418a)
 
-![Project Banner](https://github.com/newnameformat/VersumSpaceProject/assets/projectbanner.png)
+
 <br>
 <br>
 
