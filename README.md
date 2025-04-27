@@ -6,7 +6,7 @@
 [![Visuals](https://img.shields.io/badge/Visuals-Niji%20Journey-purple)](https://nijijourney.com/home)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-![Project Banner](projectbanner.png)
+![Project Banner](https://github.com/newnameformat/VersumSpaceProject/assets/projectbanner.png)
 <br>
 <br>
 
