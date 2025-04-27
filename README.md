@@ -8,8 +8,6 @@
 <br>
 <br>
 ![projectbanner](https://github.com/user-attachments/assets/5f991fa2-81fc-4295-bce6-d717e074418a)
-
-
 <br>
 <br>
 
