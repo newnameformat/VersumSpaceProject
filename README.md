@@ -7,7 +7,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 <br>
 <br>
-![VersumSpace](https://github.com/user-attachments/assets/8d659198-d772-4be3-8fcf-23e0db34a7b7)
+![VersumSpace Banner](https://github.com/user-attachments/assets/2deb13e9-2add-4b79-bb3b-4b87d4ae9c17)
 <br>
 <br>
 
