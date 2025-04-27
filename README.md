@@ -6,7 +6,7 @@
 [![Visuals](https://img.shields.io/badge/Visuals-Niji%20Journey-purple)](https://nijijourney.com/home)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A modular lore and worldbuilding wiki template for creators, writers, and worldbuilders.
+![Project Banner](projectbanner.png)
 <br>
 <br>
 
