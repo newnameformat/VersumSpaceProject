@@ -11,10 +11,15 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 
 ## 🛠 Tech Stack
 ![Status](https://img.shields.io/badge/Status-in%20development-yellow)
+
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-orange)
+
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://vercel.com/) 
+
 [![Visuals](https://img.shields.io/badge/Visuals-Niji%20Journey-purple)](https://nijijourney.com/home)
+
 [![Enviroment](https://img.shields.io/badge/Enviroment-Visual%20Studio%20Code-blue)](https://nijijourney.com/home)
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
