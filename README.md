@@ -27,8 +27,8 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 ## ✨ Features
 - Flexible and customizable site structure
 - Organized pages for worlds, characters, events, and timelines
-- Integrated support for art and media
-- Lightweight, fast, and easy to expand
+- Lightweight, fast, and easy to expand or customize
+- Full documentation on how to edit and use elements
 - Ready-to-deploy to Vercel or any other static host
 
 
