@@ -39,7 +39,7 @@ The long-term goal is to make this a template that anyone can adapt for their ow
    cd VersumSpaceProject
    ```
 2. Open index.html in your browser to view it locally.
-3. Customize the template (I use [Visual Studio COde](https://code.visualstudio.com/))
+3. Customize the template (I use [Visual Studio Code](https://code.visualstudio.com/))
 4. Deploy to Vercel (or your preferred host)
 
 
