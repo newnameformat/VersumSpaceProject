@@ -35,15 +35,11 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 ## 📦 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/newnameformat/VersumSpaceProject.git
+   cd VersumSpaceProject
    ```
-2. Navigate to the directory:
-   ```bash
-   cd project-name
-   ```
-3. Open index.html in your browser to view it locally.
-4. Customize and deploy to Vercel (or your preferred host).
+2. Open index.html in your browser to view it locally.
+3. Customize and deploy to Vercel (or your preferred host).
 
 
 ## 🧑‍💻 Contributions
