@@ -22,7 +22,7 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[![Documentation](https://img.shields.io/badge/Styling-Documentation-magenta)]([https://nijijourney.com/home](https://docs.google.com/document/d/1yWjeHMnIq3vqlBlW7Y6uTq5tvBK0WAWldx5F7AHcDe4/edit?usp=sharing))
+[![Documentation](https://img.shields.io/badge/Styling-Documentation-white)]([https://nijijourney.com/home](https://docs.google.com/document/d/1yWjeHMnIq3vqlBlW7Y6uTq5tvBK0WAWldx5F7AHcDe4/edit?usp=sharing))
 
 
 ## ✨ Features
