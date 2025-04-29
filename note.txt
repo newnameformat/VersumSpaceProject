@@ -12,5 +12,5 @@ VersumSpace Project Repository:
 https://github.com/newnameformat/VersumSpaceProject 
 
 If you are looking for inspiration, you can also view my private
-project utilizing this template by following the link posted on
-the repository's "About" section on the right side of the page.
+project utilizing this template by following the link below:
+https://versumspace.vercel.app/ 
