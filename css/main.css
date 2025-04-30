@@ -258,17 +258,6 @@ p {
   opacity: 1;
 }
 
-.tooltip-text::after {
-  content: "";
-  position: absolute;
-  top: -5px; /* above the box */
-  left: 50%;
-  transform: translateX(-50%);
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent #2c2f33 transparent;
-}
-
 
 
 /* 5. EFFECTS FOR RAIN.JS & SNOW.JS */
