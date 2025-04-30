@@ -25,9 +25,11 @@
       </div>
 
       <div class="header-right">
+        <!--If you are not planning on using Discord
+        you can remove the following div-->
         <div class="discord-tooltip-wrapper">
           <img src="images/Discord-Symbol-White.png" alt="Discord" class="social-icon" />
-          <div class="tooltip-text">discord user here</div> <!-- ✅ Moved inside here -->
+          <div class="tooltip-text">discord user here</div> 
         </div>
 
         <a href="#" target="_blank">
@@ -67,6 +69,7 @@
           <img src="images/VersumSpace.png" alt="Main Title" class="main-title-image" />
           
           <!-- Bottom corner overlays -->
+          <!-- Element is optional -->
            <!--
           <img src="images/husky1.png" alt="Bottom Left Overlay" class="corner-overlay bottom-left" />
           <img src="images/husky3.png" alt="Bottom Right Overlay" class="corner-overlay bottom-right" />
@@ -94,7 +97,7 @@
           <div class="music-info">
             <img src="images/placeholder-image.jpeg" alt="Album Cover" class="album-art" />
             <div class="track-details">
-              <div id="typing-text"></div>
+              <div id="typing-text"></div> <!--You can add the title by visiting typing-text.js in the js folder-->
               <div class="track-artist">Artist Name</div>
             </div>
           </div>
@@ -112,7 +115,7 @@
 
     
     <!--SCRIPTS-->
-    <script src="js/snow.js"></script>
+    <script src="js/snow.js"></script> <!--replace the word snow with rain to switch effects-->
     <script src="js/music-player.js"></script>
     <script src="js/typing-text.js"></script>
     <script src="js/discord.js"></script>
