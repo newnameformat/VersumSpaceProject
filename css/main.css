@@ -1,6 +1,6 @@
 /* 1. BACKGROUND */
 .bg-img {
-    background-image: url("../images/placeholder-bg.png");
+    background-image: url("../images/bgblur.png"); /* replace bgblur.png with your image name */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -65,7 +65,7 @@ p {
   border-radius: 8px;
   border-color: #fff;
   margin-top: 2px;
-  margin-bottom: -5px;
+  margin-bottom: -5px; /* sets the spacing between sidebar images */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -101,7 +101,7 @@ p {
   
   .main-title-image {
     width: 100%;
-    max-width: 530px; /* don't let it grow past 530px */
+    max-width: 530px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(173, 216, 230, 0.5);
@@ -116,7 +116,7 @@ p {
     pointer-events: none; /* don't block mouse */
   }
   
-  /* Specific placement */
+  /* Specific placement of overlays (THESE ARE OPTIONAL) */
   .bottom-left {
     bottom: 10px;
     left: -47px;
@@ -133,7 +133,7 @@ p {
   
   .main-buttons {
     display: flex;
-    justify-content: center; /* <-- center buttons under the main-title */
+    justify-content: center; /* centers buttons under the main-title */
     gap: 20px;
   }
   
@@ -151,12 +151,12 @@ p {
     font-weight: bold;
     font-family: courier;
     color: #fff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* <-- added this line */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
   }
   
   .text-button:hover {
-    transform: scale(1.05); /* slightly bigger on hover */
-    box-shadow: 0 6px 24px rgba(173, 216, 230, 0.7); /* stronger shadow on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 24px rgba(173, 216, 230, 0.7); 
   }
   
 
@@ -185,7 +185,7 @@ p {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* <-- space between left and right */
+  justify-content: space-between; /* space between left and right */
   width: 100%;
   max-width: 1200px;
   padding: 0 20px;
@@ -193,7 +193,7 @@ p {
 }
 
 .header-logo {
-  height: 50px; /* fix logo size */
+  height: 50px; /* logo size */
   width: auto;
   object-fit: contain;
 }
@@ -203,7 +203,7 @@ p {
   font-size: 28px;
   font-weight: bold;
   text-shadow: 2px 2px 6px rgba(221, 255, 0, 0.491);
-  margin: 0; /* remove default H1 margin */
+  margin: 0;
 }
 
 .header-left {
@@ -340,7 +340,9 @@ canvas {
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
   }
- 
+
+
+/* Following 3 classes are are overlays and optional */ 
   .music-right {
     bottom: 50px;
     right: -20px;
@@ -383,7 +385,7 @@ canvas {
     color: white;
   }
   
-  /* Use this if you prefer non-animated track title:
+  /* Use this if you prefer non-animated track title and replace id with class
 
   .track-title { 
     font-size: 18px;
