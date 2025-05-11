@@ -10,116 +10,153 @@
   </head>
 
   <!-- BACKGROUND -->
-  <body class="bg-img">
-    <canvas id="rainCanvas"></canvas>
+<body class="bg-img">
+  <canvas id="rainCanvas"></canvas>
+  <canvas id="twinkleCanvas"></canvas>
     
-<!-- HEADER -->
-<header class="site-header">
-  <div class="site-header-inner">
-    <div class="header-content">
-      <div class="header-left">
-        <a href="index.html">
-          <img src="images/favicon.png" alt="Logo" class="header-logo" />
-        </a>
-        <h1 class="header-title">VersumSpace Template</h1>
+ <!-- HEADER -->
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="header-content">
+        <div class="header-left">
+          <a href="index.html">
+            <img src="images/favicon.png" alt="Logo" class="header-logo" />
+          </a>
+          <img src="images/VersumSpace.png" alt="Text Logo" class="header-logo header-text" />
+        </div>
+        <div class="header-right">
+          <!-- Discord icon + tooltip -->
+          <div class="discord-tooltip-wrapper" onclick="showPopup()">
+            <img src="images/Discord-Symbol-White.png" alt="Discord" class="social-icon" />
+            <div class="tooltip-text">Your Discord user here</div>
+          </div>
+          <!-- other social icons -->
+          <a href="https://github.com/newnameformat" target="_blank">
+            <img src="images/github-mark-white.png" alt="GitHub" class="social-icon" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" class="social-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- MAIN LAYOUT -->
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+      <!--Choose between img or title-->
+      <!--Can change <p> color in the main.CSS-->
+      <img src="images/VersumSpace.png" alt="Explore" class="sidebar-title" />
+      <p class="sidebar-title">Title Here</p>
+
+      <!--Optional Overlay-->
+      <!--
+      <img src="images/whiterabbitside.png" alt="Overlay" class="sidebar-overlay sidebar-right" />
+      -->
+
+      <a href="#"><img src="images/placeholder.png" alt="Placeholder" class="sidebar-image" /></a>
+      <a href="#"><img src="images/placeholder.png" alt="Placeholder" class="sidebar-image" /></a>
+      <a href="#"><img src="images/placeholder.png" alt="Placeholder" class="sidebar-image" /></a>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <div class="main-title-wrapper">
+        <img src="images/VersumSpace.png" alt="Main Title" class="main-title-image" />
       </div>
 
-      <div class="header-right">
-        <!--If you are not planning on using Discord
-        you can remove the following div-->
-        <div class="discord-tooltip-wrapper">
-          <img src="images/Discord-Symbol-White.png" alt="Discord" class="social-icon" />
-          <div class="tooltip-text">discord user here</div> 
+      <!-- Mobile dropdown — hidden by default on desktop -->
+      <div class="mobile-content-dropdown">
+        <select id="mobile-menu">
+          <option value="" selected disabled>Explore…</option>
+          <option value="#">Placeholder 1</option>
+          <option value="#">Placeholder 2</option>
+          <option value="#">Placeholder 3</option>
+          <!--Copy & paste to add more-->
+        </select>
+      </div>
+
+      <div class="main-buttons">
+        <a href="about/about.html" target="_blank">
+          <button class="text-button">The Author</button>
+        </a>
+        <a href="https://docs.google.com/document/d/1yWjeHMnIq3vqlBlW7Y6uTq5tvBK0WAWldx5F7AHcDe4/edit?usp=sharing" target="_blank">
+          <button class="text-button">Guide to VersumSpace</button>
+        </a>
+      </div>
+
+      <div class="main-buttons">
+        <a href="https://github.com/newnameformat/VersumSpaceProject" target="_blank">
+          <button class="versum-btn">
+            VersumSpace Project on GitHub
+          </button>
+        </a>
+      </div>
+
+      <!-- MUSIC PLAYER -->
+      <div class="music-player">
+        <!--These are optional overlays & can view mine at https://versumspace.vercel.app/ -->
+        <!--
+        <img src="images/vineleft.png" alt="Left Vine" class="music-overlay music-left" />
+        <img src="images/whiterabbit.gif" alt="Rabbit" class="music-bg image-fade-corners music-center" />
+        <img src="images/vineright.png" alt="Right Vine" class="music-overlay music-right" />
+        -->
+
+        <div class="music-info">
+          <img src="images/placeholder-image.jpeg" alt="Album Art" class="album-art" />
+          <div class="track-details">
+            <div id="typing-text"></div>
+            <div class="track-artist">Artist</div> <!--Artist name here-->
+          </div>
         </div>
 
-        <a href="#" target="_blank">
-          <img src="images/github-mark-white.png" alt="GitHub" class="social-icon" />
-        </a>
-        <a href="#" target="_blank">
-          <img src="images/instagram.png" alt="Instagram" class="social-icon" />
-        </a>
+        <audio id="audio-player" src="audio/#"></audio> <!--Replace # with your audio file-->
+
+        <div class="controls">
+          <button id="play-pause" class="control-button">▶</button>
+          <input type="range" id="progress-bar" value="0" />
+        </div>
       </div>
     </div>
   </div>
-</header>
 
-    <!-- LAYOUT -->
-    <div class="layout">
-  
-      <!-- Sidebar (left) -->
-      <div class="sidebar">
-        <div class="sidebar-title">Universes to Explore</div>
-      
-        <a href="#">
-          <img src="images/placeholder.png" alt="Image 2" class="sidebar-image" />
-        </a>
-        
-        <a href="#">
-          <img src="images/placeholder.png" alt="Image 3" class="sidebar-image" />
-        </a>
-        
-        <a href="#">
-          <img src="images/placeholder.png" alt="Image 3" class="sidebar-image" />
-        </a>
-      </div>
-  
-      <!-- Main Content (right) -->
-      <div class="main-content">
-        <div class="main-title-wrapper">
-          <img src="images/VersumSpace.png" alt="Main Title" class="main-title-image" />
-          
-          <!-- Bottom corner overlays -->
-          <!-- Element is optional -->
-           <!--
-          <img src="images/husky1.png" alt="Bottom Left Overlay" class="corner-overlay bottom-left" />
-          <img src="images/husky3.png" alt="Bottom Right Overlay" class="corner-overlay bottom-right" />
-          -->
-        </div>
-
-        <div class="main-buttons">
-          <a href="about/about.html" target="_blank">
-             <button class="text-button">The Author</button>
-          </a>
-          <a href="https://docs.google.com/document/d/1yWjeHMnIq3vqlBlW7Y6uTq5tvBK0WAWldx5F7AHcDe4/edit?usp=sharing" target="_blank">
-              <button class="text-button">Guide to VersumSpace</button>
-          </a>
-        </div>
-
-        <div class="main-buttons">
-          <a href="https://github.com/newnameformat/VersumSpaceProject" target="_blank">
-            <button class="text-button" style="width: 523px; margin-top: 10px;">VersumSpace Project on GitHub</button>
-          </a>
-        </div>
-
-        <!-- MUSIC PLAYER -->
-        <div class="music-player">
-        
-          <div class="music-info">
-            <img src="images/placeholder-image.jpeg" alt="Album Cover" class="album-art" />
-            <div class="track-details">
-              <div id="typing-text"></div> <!--You can add the title by visiting typing-text.js in the js folder-->
-              <div class="track-artist">Artist Name</div>
-            </div>
-          </div>
-        
-          <audio id="audio-player" src="audio/afterlife.mp3"></audio>
-        
-          <div class="controls">
-            <button id="play-pause" class="control-button">▶</button>
-            <input type="range" id="progress-bar" value="0" />
-          </div>
-        
-        </div>
-      </div>
+  <!-- POPUP HTML (hidden until .show is added) -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <p>Your Discord Username: <strong>user here</strong></p>
     </div>
+  </div>
 
-    
-    <!--SCRIPTS-->
-    <script src="js/snow.js"></script> <!--replace the word snow with rain to switch effects-->
-    <script src="js/music-player.js"></script>
-    <script src="js/typing-text.js"></script>
-    <script src="js/discord.js"></script>
-  </body>
-  
+  <!-- SCRIPTS -->
 
-  </html>
+  <script src="js/rain.js"></script>
+  <script src="js/music-player.js"></script>
+  <script src="js/typing-text.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="js/twinkle.js"></script>
+
+  <!--CONDITIONAL SCRIPTS-->
+  <!--Don't forget to visit the <canvas> tag when
+    changing / alternating between effect scripts -->
+  <script>
+  if (window.innerWidth > 1100) {
+    // Load rain.js for larger screens
+    var script = document.createElement('script');
+    script.src = 'js/rain.js'; // Must change when alternating effects
+    document.body.appendChild(script);
+  } else {
+    // Load twinkle.js for smaller screens
+    var script = document.createElement('script');
+    script.src = 'js/twinkle.js';
+    // The above is a mobile only effect. Requires additonal changes
+    // to be used on browser view / alternated
+    document.body.appendChild(script);
+  }
+</script>
+
+</body>
+</html>
