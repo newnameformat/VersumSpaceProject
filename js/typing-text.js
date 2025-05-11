@@ -1,4 +1,4 @@
-const text = "Title"; // Your song title here
+const text = "Your Title Here"; // Your song title here
 const typingSpeed = 150; // Speed per character (milliseconds)
 const pauseTime = 2000; // Pause 2 seconds when fully typed
 
