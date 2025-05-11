@@ -220,6 +220,11 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
+  .versum-btn:hover {
+    transform: scale(1.05); /* slightly bigger on hover */
+    box-shadow: 0 6px 24px rgba(173, 216, 230, 0.7); /* stronger shadow on hover */
+  }
+
   .text-button {
     background-color: rgba(0, 0, 0, 0.272);
     border: 1px solid #41001a00;
