@@ -1,32 +1,30 @@
-/* 
-To use this file, remove the the comments at the beginning and end
-of this file. Once this is done, go to index.html and replace the
-<script src="js/snow.js"></script> with <script src="js/rain.js"></script> 
-and then save the file! 
-*/
+const rainCanvas = document.getElementById('rainCanvas');
+const rainCtx = rainCanvas.getContext('2d');
 
+// Function to check if it's mobile view
+function isMobileView() {
+  return window.innerWidth <= 1100; // Default. Set your desired mobile breakpoint
+}
 
-/*
-const canvas = document.getElementById('rainCanvas');
-const ctx = canvas.getContext('2d');
+// Set canvas size based on the window size
+function resizeCanvas() {
+  rainCanvas.width = window.innerWidth;
+  rainCanvas.height = window.innerHeight;
+}
 
-// Set canvas to full window size
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+// Initial setup
+resizeCanvas();
 
 // Handle resizing
-window.addEventListener('resize', () => {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-});
+window.addEventListener('resize', resizeCanvas);
 
 // Raindrop particles
 const drops = [];
 
 for (let i = 0; i < 500; i++) {
   drops.push({
-    x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height,
+    x: Math.random() * rainCanvas.width,
+    y: Math.random() * rainCanvas.height,
     length: Math.random() * 20 + 10,
     speed: Math.random() * 5 + 4,
     opacity: Math.random() * 0.5 + 0.3,
@@ -34,28 +32,29 @@ for (let i = 0; i < 500; i++) {
 }
 
 function drawRain() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  
-  ctx.lineWidth = 1;
+  rainCtx.clearRect(0, 0, rainCanvas.width, rainCanvas.height);
+
+  rainCtx.lineWidth = 1;
 
   for (let i = 0; i < drops.length; i++) {
     const d = drops[i];
-    ctx.beginPath();
-    ctx.moveTo(d.x, d.y);
-    ctx.lineTo(d.x, d.y + d.length);
-    ctx.strokeStyle = `rgba(173, 216, 230, ${d.opacity})`;
-    ctx.stroke();
+    rainCtx.beginPath();
+    rainCtx.moveTo(d.x, d.y);
+    rainCtx.lineTo(d.x, d.y + d.length);
+    rainCtx.strokeStyle = `rgba(173, 216, 230, ${d.opacity})`;
+    rainCtx.stroke();
 
     d.y += d.speed;
-    if (d.y > canvas.height) {
+    if (d.y > rainCanvas.height) {
       d.y = -d.length;
-      d.x = Math.random() * canvas.width;
+      d.x = Math.random() * rainCanvas.width;
     }
   }
 
   requestAnimationFrame(drawRain);
 }
 
-drawRain();
-
-*/
+// Start the rain animation
+if (!isMobileView()) {
+  drawRain();
+}
