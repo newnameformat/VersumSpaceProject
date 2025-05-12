@@ -267,6 +267,10 @@
   height: 60px;
 }
 
+  .popup {
+    display: none;
+  }
+
   .site-header-inner {
     width: 100%;
   }
