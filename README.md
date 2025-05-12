@@ -34,13 +34,15 @@ The long-term goal is to make this a template that anyone can adapt for their ow
 
 
 ## 📦 Getting Started
-1. Clone the repository:
+1. Open a terminal
+2. Clone the repository:
    ```bash
    git clone https://github.com/newnameformat/VersumSpaceProject.git
+   cd VersumSpaceProject
    ```
-2. Open index.html in your browser to view it locally.
-3. Customize the template (I use [Visual Studio Code](https://code.visualstudio.com/))
-4. Deploy to Vercel (or your preferred host)
+3. Open index.html in your browser to view it locally.
+4. Customize the template (I use [Visual Studio Code](https://code.visualstudio.com/))
+5. Deploy to Vercel (or your preferred host)
 
 
 ## 🧑‍💻 Contributions
