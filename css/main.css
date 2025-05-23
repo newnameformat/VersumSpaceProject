@@ -5,7 +5,7 @@
     background-image: url("../images/var3blurdark.png");
     /* remove the above line and choose a bg color if 
     you do not wish to use an image */
-    background-color: none; /* choose color here */
+    background-color: #808080; /* choose color here */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
