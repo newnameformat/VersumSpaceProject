@@ -51,7 +51,7 @@
     }
 
   /* The following two classes are for a sidebar img overlay.
-    You can leave them commented out unless u plant to use it */
+    You can comment them out unless u plan to use it */
   .sidebar-right {
       bottom: 193px;
       right: 130px;
@@ -66,11 +66,10 @@
       height: auto;
       pointer-events: none; /* don't block mouse */
     }
-    /* END sidebar img overlay classes */
 
    
   /* You may use this or the sidebar-image class if you have
-  a logo / img title you would like to use */
+  a logo or img title you would like to use */
   .sidebar-title {
       color: #000000;
       padding: 2px;
@@ -105,7 +104,7 @@
 
   /* This is for mobile rendering only */
   .mobile-content-dropdown {
-    display: none; /* Hide it by default (desktop and larger) */
+    display: none; /* Hide it by default (desktop, some tablets and larger) */
   }
   
 
@@ -542,7 +541,7 @@ canvas {
   /* ======================
           MOBILE LAYOUT
      ====================== */
-  @media (max-width: 1100px) { /* Apply for both portrait and landscape if device is under 768px */
+  @media (max-width: 1100px) { /* Apply for both portrait and landscape if device is under 1100px */
     
     /* General layout stacking */
     body .sidebar {
@@ -598,15 +597,15 @@ canvas {
         flex-shrink: 0;
     }
 
-        /* Popup Box Styles */
+    /* Popup Box Styles */
     .popup {
       display: none;
       position: fixed;
       top: 15%;
       left: 50%;
       transform: translateX(-50%);
-      width: 90%; /* Adjusted for better responsiveness */
-      max-width: 400px; /* Still keeps a max width */
+      width: 90%;
+      max-width: 400px; /* Keep a max width */
       padding: 20px;
       border-radius: 8px;
       z-index: 1000;
@@ -660,7 +659,6 @@ canvas {
     }
 
 
-    /* Hide the old sidebar, show the new dropdown */
     .sidebar {
         display: none !important;
     }
@@ -744,7 +742,7 @@ canvas {
     }
 
     .bg-img {
-        /* background-image: url("../images/file name here") !important; */
+        /* background-image: url("../images/file name here") !important; */ /* remove comment to use this */
         background-size: cover;
         background: #000000; /* fallback solid color */
     }
