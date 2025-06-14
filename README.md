@@ -1,4 +1,5 @@
-![VersumSpace Banner Graphic](https://github.com/user-attachments/assets/be81c3aa-06d0-43a8-9e7d-67dd6c16a21b)
+
+![VersumSpace Banner](https://github.com/user-attachments/assets/3683fec5-b4a2-4dfa-9e84-aaec45a2d861)
 <br>
 <br>
 
