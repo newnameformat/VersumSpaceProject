@@ -744,6 +744,12 @@ canvas {
       margin: 0 !important;
     }
 
+
+    /* Hide spotify player */
+    .spotify-player {
+        display: none !important;
+    }
+    
     /* Hide music player */
     .music-player {
         display: none !important;
