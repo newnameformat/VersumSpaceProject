@@ -538,6 +538,22 @@ canvas {
   }
 
 
+
+  /* ======================
+        SPOTIFY PLAYER
+     ====================== */
+.spotify-player {
+  background: transparent;
+  padding-bottom: 0;
+  border-radius: 12px;
+  margin-top: 20px;
+  max-height: 340px;
+  overflow: hidden; /* Ensures rounded corners work on iframe */
+}
+
+
+
+
   /* ======================
           MOBILE LAYOUT
      ====================== */
