@@ -3,7 +3,7 @@
 <br>
 <br>
 
-## 🌌 About the Project
+## 🌌 About the Project ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fnewnameformat%2FVersumSpaceProject&label=Visitors&icon=github&color=%23052c65&message=&style=flat&tz=UTC)
 VersumSpace is a solo-built project designed to organize and showcase original worlds, characters, plots, and timelines.
 Built with HTML, CSS, and JavaScript, and designed for easy hosting on Vercel, it offers a flexible foundation for anyone wanting to present their creative universe online.
 
